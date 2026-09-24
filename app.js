@@ -172,7 +172,6 @@
     const grid = $('#toolsGrid');
     grid.innerHTML = list.map(t => {
       const hasDemo = isReal(t.demo);
-      const hasCode = isReal(t.codigo);
       const shot = isReal(t.screenshot)
         ? `<img class="tool-shot" src="${esc(t.screenshot)}" alt="${esc(t.screenshotAlt || t.nombre)}" loading="lazy" />`
         : '';
@@ -190,7 +189,6 @@
           ${hasDemo
             ? `<a class="btn btn-primary btn-sm" href="${esc(t.demo)}" target="_blank" rel="noopener noreferrer">Demo</a>`
             : `<a class="btn btn-primary btn-sm" href="#contacto" data-tool="${esc(t.nombre)}">Solicitar acceso</a>`}
-           ''}
         </div>
       </article>`;
     }).join('');
@@ -244,3 +242,4 @@
     showToast('No se pudo cargar la configuración del sitio.');
   });
 })();
+
