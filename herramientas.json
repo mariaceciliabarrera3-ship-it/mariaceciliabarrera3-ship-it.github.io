@@ -1,0 +1,31 @@
+{
+  "_comment": "Catálogo público. Cada objeto usa los mismos campos para que app.js los muestre automáticamente. Si 'demo' o 'code' quedan vacíos, la tarjeta muestra 'Solicitar acceso' en su lugar. 'screenshot' es opcional: si lo dejás vacío, la tarjeta no muestra imagen.",
+  "herramientas": [
+    {
+      "id": "topo-vce",
+      "nombre": "TOPO VCE",
+      "categoria": "Datos & IA",
+      "estado": "Testing",
+      "version": "V3",
+      "descripcion": "Subís cualquier tabla (CSV), la herramienta limpia los datos, calcula las Variables Clave Emergentes por vecinos más cercanos (KNN) y dibuja la topografía 3D del dataset: un paisaje donde los picos marcan dónde se concentra la información más significativa.",
+      "tecnologias": ["Python", "Streamlit", "Pandas", "Plotly", "KNN"],
+      "demo": "https://topovcev3-jqgtw6sbczfjwxqlrs7wxr.streamlit.app/",
+      "codigo": "https://github.com/mariaceciliabarrera3-ship-it/TOPO_VCE_V3",
+      "screenshot": "",
+      "screenshotAlt": ""
+    },
+    {
+      "id": "toposgraph3d",
+      "nombre": "ToposGraph3D",
+      "categoria": "Datos & IA",
+      "estado": "En desarrollo",
+      "version": "v0.1",
+      "descripcion": "Resuelve el mismo problema que TOPO VCE —tabla a paisaje 3D con variables clave— con otro enfoque matemático: reduce la dimensionalidad con UMAP antes de dibujar el relieve. Se publican ambas versiones a propósito, para comparar qué método explica mejor cada tipo de dato.",
+      "tecnologias": ["Python", "Streamlit", "Pandas", "Plotly", "UMAP"],
+      "demo": "https://toposgraph3dg-yazdn8eqxhd3k4misdyryz.streamlit.app/",
+      "codigo": "https://github.com/mariaceciliabarrera3-ship-it/ToposGraph3D.g",
+      "screenshot": "",
+      "screenshotAlt": ""
+    }
+  ]
+}

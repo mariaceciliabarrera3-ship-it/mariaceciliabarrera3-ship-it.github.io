@@ -1,0 +1,38 @@
+{
+  "_comment": "Configuración pública del sitio. Reemplazá los campos vacíos por tus datos reales editando este archivo desde GitHub. No pongas contraseñas acá: la clave de Web3Forms está pensada para ser pública.",
+
+  "site": {
+    "name": "99% IA",
+    "shortName": "99% IA",
+    "url": "https://mariaceciliabarrera3-ship-it.github.io/",
+    "title": "99% IA — Herramientas construidas con IA, mostradas con criterio",
+    "description": "Vitrina de herramientas propias: subís una tabla de datos y la IA la limpia, calcula sus variables principales y dibuja su topografía en 3D.",
+    "author": "María Cecilia Barrera",
+    "location": "Córdoba, Argentina",
+    "tagline": "99% IA · 1% criterio: qué construir, qué descartar y cuándo algo está listo.",
+    "onePercent": "El 99% de este código lo escribe la IA. El 1% es mío: plantear el problema, poner a competir a varios modelos, elegir el resultado que sirve, probarlo con datos reales y decidir con qué estado se publica.",
+    "ogImage": "assets/og-cover.png"
+  },
+
+  "contact": {
+    "gmail": "mariaceciliabarrera3@gmail.com",
+    "web3formsAccessKey": "",
+    "subject": "Consulta desde 99% IA"
+  },
+
+  "social": {
+    "github": "https://github.com/mariaceciliabarrera3-ship-it",
+    "linkedin": ""
+  },
+
+  "support": {
+    "cafecito": "",
+    "koFiOrPaypal": "",
+    "note": "Cafecito procesa pagos a través de Mercado Pago con verificación argentina; si tu público incluye gente fuera de Argentina, sumá también Ko-fi o PayPal.me, pensados para donaciones internacionales."
+  },
+
+  "analytics": {
+    "goatcounter": "",
+    "showPublicCounter": false
+  }
+}

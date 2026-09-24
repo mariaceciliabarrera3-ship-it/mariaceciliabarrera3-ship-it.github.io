@@ -1,0 +1,26 @@
+{
+  "_comment": "Ejemplos de servicio para editar. Completá los corchetes con tu oferta real. No se inventan precios: dejá 'A cotizar' o el valor real.",
+  "servicios": [
+    {
+      "titulo": "[Nombre del servicio, ej: Diagnóstico de datos]",
+      "para": "[Para quién es: ej. equipos chicos que tienen datos en Excel y no saben qué preguntarles]",
+      "entrega": "[Qué recibe la persona: ej. un informe con las 5 variables que más explican tu negocio, más el mapa 3D]",
+      "contratacion": "Escribime desde el formulario de contacto contando tu caso.",
+      "precio": "A cotizar"
+    },
+    {
+      "titulo": "[Nombre del servicio, ej: Herramienta a medida]",
+      "para": "[Para quién es]",
+      "entrega": "[Qué recibe]",
+      "contratacion": "Escribime desde el formulario de contacto.",
+      "precio": "A cotizar"
+    },
+    {
+      "titulo": "[Nombre del servicio, ej: Acompañamiento]",
+      "para": "[Para quién es]",
+      "entrega": "[Qué recibe]",
+      "contratacion": "Escribime desde el formulario de contacto.",
+      "precio": "A cotizar"
+    }
+  ]
+}

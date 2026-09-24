@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mariaceciliabarrera3-ship-it.github.io/sitemap.xml
