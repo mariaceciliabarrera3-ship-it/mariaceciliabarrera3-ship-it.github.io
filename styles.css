@@ -169,7 +169,6 @@ html[data-theme="dark"] .moon{display:none}
 
 /* ---------------- Methodology (real sequence -> numbered) ---------------- */
 .meth-list{counter-reset:step;display:grid;gap:0}
-.meth-item{display:grid;grid-template-columns:56px 1fr;gap:20px;padding:20px 0;border-top:1px solid var(--line)}
 .meth-item h4,.meth-item p{grid-column:2}
 .meth-item:last-child{border-bottom:1px solid var(--line)}
 .meth-item::before{counter-increment:step;content:counter(step,decimal-leading-zero);font-family:var(--font-mono);color:var(--contour);font-size:.95rem;padding-top:2px}
