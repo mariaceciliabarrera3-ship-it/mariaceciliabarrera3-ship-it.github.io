@@ -242,4 +242,3 @@
     showToast('No se pudo cargar la configuración del sitio.');
   });
 })();
-
