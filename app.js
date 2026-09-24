@@ -190,9 +190,7 @@
           ${hasDemo
             ? `<a class="btn btn-primary btn-sm" href="${esc(t.demo)}" target="_blank" rel="noopener noreferrer">Demo</a>`
             : `<a class="btn btn-primary btn-sm" href="#contacto" data-tool="${esc(t.nombre)}">Solicitar acceso</a>`}
-          ${hasCode
-            ? `<a class="btn btn-outline btn-sm" href="${esc(t.codigo)}" target="_blank" rel="noopener noreferrer">Código</a>`
-            : ''}
+           ''}
         </div>
       </article>`;
     }).join('');
